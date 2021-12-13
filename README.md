@@ -16,6 +16,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 
 ### 3D Space-time cube visualization of subject_1
 * Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
+* This concept was first introduced by [Hägerstrand-Swedish geographer](https://en.wikipedia.org/wiki/Torsten_H%C3%A4gerstrand). According to Hägerstrand; a life path can be visualized as a 3D space by projecting it on a 2D plane. As the base (x and y-axis) corresponds the geography, the height (z-axis) represents time. [2]
 * There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for an interactive 3D-viz
 #### Non intractivve 3D Space-time cube visualization 
 ![img](map_images./sub13dmt.png)
@@ -34,6 +35,8 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 ![img](map_images./act.png)
 * Given spcfic activity what is the mood of the subject
 ![img](map_images./mood.png)
+
+## 4D Space-time cubes
 
 ### 4D-visualization (STC + mood )
 * The line looks stright in the z-axis because we have only one location /co-ordinate information
@@ -111,4 +114,4 @@ jupyter notebook
 * Step 4: Now each cell can be run by pressing "SHiFT + ENTER" on your machine
 ## Refrences
 1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
-2.
+2.Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
