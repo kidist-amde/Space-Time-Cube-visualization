@@ -50,7 +50,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 * The line looks stright in the z-axis because we have only one location /co-ordinate information
 ![img](map_images/4dw.png)
 
-### 2D-visualization frequency of activity for all_sunjects 
+### 2D-visualization frequency of activity for all_subjects 
 ![img](map_images/3sub.png)
 ## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
