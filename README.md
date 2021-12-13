@@ -92,14 +92,12 @@ Replace the file paths which specfied in the [config](config.py) script.
 ## Project Structure
 - `README.md`: file containing all the relevant information to run the project.
 - `requirements`: file containing all the necessary libraries to install.
-- `get_old_tweets.py`: python script used to do web scraping and collect old tweets from 2011 to 2020.
-- `tweet_collection.py`: script that, using tweepy, collects recent tweets up to two weeks old.
-- `insert_to_MDB.py` `insert_eurostatdata_toMDB.py ` `filter_related_tweets.py`: scripts used to insert tweets and Eurostat data,into MongoDB.
-- `flaskApp.py`: a python script for the entry point of the web page 
-- `binary-classifier `folder : contain python script containing the various models (except BERT) used to classify tweets as related or non-related to pregnancy/newborns.
-- `Notebook `folder : contains the notebooks which implement data visualization of both  datasets (tweets and eurostat data) and the state of the art classfier model BERT and  kernel SVM. We used google colab to use GPU and train the classfier mode. We have provided publicly avalible links on the web app. 
-- `templates `folder : includes html files of the web page
-- `static` folder includes the java script,css and Images of the web page.
+- `GPS_data_EDA.ipynb`: python notebook to perform the preproocessing of the entire GPS data and to extract data of each subject.
+- `Time diary-data-EDA.ipynb`: python notebook to perform the preproocessing of the entire GPS data and to extract data of each subject.
+- `Subject_1_2D-3D_STC_VIZ.ipynb`: python notebook used to visualize the 2D and 3D maps and GPS data distribution of each subject_1/bsame for other subjects.
+- `Subject_1_time_diary_dataviz.ipynb`: python notebook used to visualize the 2D and 4D maps and Time-diary  data distribution of subject_1/same for other subjects.
+- `all_subject_dataviz.ipynb`: python notebook used to visualize and compare the 3-subjects Time-diary data.
+
 
 ## Running the  Project noteooks
 
