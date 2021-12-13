@@ -7,7 +7,8 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 
   - To visualize 3D Space Time Cube from a given GPS track of the 3 subjects 
   - To visualize 4D (Space Time Cube + Time-diaray data[mood,activity])
-  - Mapping the person in the society, Tell the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behaviour
+  - Mapping the person in the society, Telling the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behavior.
+
  
 ## Results
 ### 2D openstreet map visualization of subject_1
@@ -17,7 +18,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 ### 3D Space-time cube visualization of subject_1
 * Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
 * This concept was first introduced by [Hägerstrand-Swedish geographer](https://en.wikipedia.org/wiki/Torsten_H%C3%A4gerstrand). According to Hägerstrand; a life path can be visualized as a 3D space by projecting it on a 2D plane. As the base (x and y-axis) corresponds the geography, the height (z-axis) represents time. [2]
-* There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for an interactive 3D-viz
+* There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for non-interactive 3D-viz
 #### Non intractivve 3D Space-time cube visualization 
 ![img](map_images./sub13dmt.png)
 #### Intractivve 3D Space-time cube visualization 
@@ -92,9 +93,9 @@ Replace the file paths which specfied in the [config](config.py) script.
 - `README.md`: file containing all the relevant information to run the project.
 - `requirements`: file containing all the necessary libraries to install.
 - `GPS_data_EDA.ipynb`: python notebook to perform the preprocessing of the entire GPS data and to extract data of each subject.
-- `Time diary-data-EDA.ipynb`: python notebook to perform the preproocessing of the entire GPS data and to extract data of each subject.
-- `Subject_1_2D-3D_STC_VIZ.ipynb`: python notebook used to visualize the 2D and 3D maps and GPS data distribution of each subject_1/bsame for other subjects.
-- `Subject_1_time_diary_dataviz.ipynb`: python notebook used to visualize the 2D and 4D maps and Time-diary  data distribution of subject_1/same for other subjects.
+- `Time diary-data-EDA.ipynb`: python notebook to perform the preprocessing of the entire Time-diary data and to extract data of each subject.
+- `Subject_1_2D-3D_STC_VIZ.ipynb`: python notebook used to visualize the 2D and 3D maps and GPS data distribution of each subject_1/ same for other subjects.
+- `Subject_1_time_diary_dataviz.ipynb`: python notebook used to visualize the 2D and 4D maps and Time-diary  data distribution of subject_1/ same for other subjects.
 - `all_subject_dataviz.ipynb`: python notebook used to visualize and compare the 3-subjects Time-diary data.
 
 
@@ -108,7 +109,7 @@ After installing all dependencies in your Python's environment, execute the desi
 jupyter notebook
 ```
 * Step 3: A browser will pop up with a notebook. If the browser is not press a link on the cmd which has "htts://localhost:" in it. This will open a notebook on a browser.
-* Step 4: Now each cell can be run by pressing "SHiFT + ENTER" on your machine
+* Step 4: Now each cell can be run by pressing "SHIFT + ENTER" on your machine
 ## Refrences
 1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
 2. Kraak, M. J. (2008). Geovisualization and time–new opportunities for the space-time cube. Geographic visualization: concepts, tools, and applications, 293-306.
