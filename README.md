@@ -24,7 +24,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 #### Intractivve 3D Space-time cube visualization with basemap
 * Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
 ![img](map_images./sub_1-3d.png)
-## Dataset 
+## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
 
 ## Dependencies
