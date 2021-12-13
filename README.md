@@ -92,7 +92,7 @@ Replace the file paths which specfied in the [config](config.py) script.
 ## Project Structure
 - `README.md`: file containing all the relevant information to run the project.
 - `requirements`: file containing all the necessary libraries to install.
-- `GPS_data_EDA.ipynb`: python notebook to perform the preproocessing of the entire GPS data and to extract data of each subject.
+- `GPS_data_EDA.ipynb`: python notebook to perform the preprocessing of the entire GPS data and to extract data of each subject.
 - `Time diary-data-EDA.ipynb`: python notebook to perform the preproocessing of the entire GPS data and to extract data of each subject.
 - `Subject_1_2D-3D_STC_VIZ.ipynb`: python notebook used to visualize the 2D and 3D maps and GPS data distribution of each subject_1/bsame for other subjects.
 - `Subject_1_time_diary_dataviz.ipynb`: python notebook used to visualize the 2D and 4D maps and Time-diary  data distribution of subject_1/same for other subjects.
