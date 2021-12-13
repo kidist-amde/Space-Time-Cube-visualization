@@ -11,7 +11,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
  
 ## Results
 ### # 2D openstreet map visualization of subject_1
-![img](map_images/sub_1traj.png)
+![img](map_images./sub_1traj.png)
 ### 3D Space-time cube visualization of subject_1
 ![img](imgs/predicted.png)
 ## Dataset 
