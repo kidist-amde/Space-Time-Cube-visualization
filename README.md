@@ -81,14 +81,8 @@ pip install -r requirment.txt
 
 Replace the file paths which specfied in the [config](config.py) script.
 
-* `submission_data_path` : Replace with your test data set path
-* `url` : Put the url of the server 
-* `download_data_path `: Path to the downloaded dataset
-* `split_data_path` : Path to the training and validation split of downloaded dataset
-* `train_path`: Path to the classifier training dataset
-* `val_path`: Path to the classifier validation dataset 
-* `best_model_path`: Where to save classifier best model
-* `best_state_path `: Where to save classifier best state 
+* `data_path` : Replace all with your  data set path
+
 ## Project Structure
 - `README.md`: file containing all the relevant information to run the project.
 - `requirements`: file containing all the necessary libraries to install.
