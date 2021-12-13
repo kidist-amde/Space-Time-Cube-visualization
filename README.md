@@ -111,7 +111,7 @@ jupyter notebook
 
 * Step 7 : Now you can open any notebook and each cell can be run by pressing "SHIFT + ENTER" on your machine
 
-## font color="blue"> Run each notebook in your local machine to see the interactive visualization and to get  much more contextual information and makes it possible to understand space-time-cube 3D and 4D visualization of each subject </font> 
+## <font color="blue"> Run each notebook in your local machine to see the interactive visualization and to get  much more contextual information and makes it possible to understand space-time-cube 3D and 4D visualization of each subject </font> 
 
 ## Refrences
 1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
