@@ -2,6 +2,12 @@
 ##  Space-Time-Cube-3D and 4D visualization
 
 Geovisualization of Spatio-temporal data is a very promising keynote, especially for social sciences. It is possible to use a space-time cube to divulge activity, travel patterns of different genders, racial groups, non-employees, etc., and all the information can be related to urban planning, transportation,location-based services, and many other fields dealing with individual geo-data.In this work, I used the GPS data that describe the movements of 3 subjects and Time-diaray data, data collected from the 3 subjects through the ilog-mobile application. 
+
+* The specific objectives of this project are:
+
+  - To visualize 3D Space Time Cube from a given GPS track of the 3 subjects 
+  - To visualize 4D (Space Time Cube + Time-diaray data[mood,activity])
+  - Mapping the person in the society, Tell the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behaviour
 ## Dataset 
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
 
