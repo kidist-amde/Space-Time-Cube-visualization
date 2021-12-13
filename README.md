@@ -19,13 +19,13 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 #### Non intractivve 3D Space-time cube visualization 
 ![img](map_images./sub13dmt.png)
 #### Intractivve 3D Space-time cube visualization 
-* Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
+* Run the`Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
 ![img](map_images./sub_1-3d.png)
 #### Intractivve 3D Space-time cube visualization with Trento-reigions as basemap
 * Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
 ![img](map_images./st3d.png)
 #### Intractivve 3D Space-time cube visualization with OSM as basemap
-* Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
+* Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
 ![img](map_images./s1osm3d.png)
 ## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
@@ -59,6 +59,29 @@ and install the dependancies.
 ```bash
 pip install -r requirment.txt
 ```
+## Cofigration 
+
+Replace the file paths which specfied in the [config](config.py) script.
+
+* `submission_data_path` : Replace with your test data set path
+* `url` : Put the url of the server 
+* `download_data_path `: Path to the downloaded dataset
+* `split_data_path` : Path to the training and validation split of downloaded dataset
+* `train_path`: Path to the classifier training dataset
+* `val_path`: Path to the classifier validation dataset 
+* `best_model_path`: Where to save classifier best model
+* `best_state_path `: Where to save classifier best state 
+## Project Structure
+- `README.md`: file containing all the relevant information to run the project.
+- `requirements`: file containing all the necessary libraries to install.
+- `get_old_tweets.py`: python script used to do web scraping and collect old tweets from 2011 to 2020.
+- `tweet_collection.py`: script that, using tweepy, collects recent tweets up to two weeks old.
+- `insert_to_MDB.py` `insert_eurostatdata_toMDB.py ` `filter_related_tweets.py`: scripts used to insert tweets and Eurostat data,into MongoDB.
+- `flaskApp.py`: a python script for the entry point of the web page 
+- `binary-classifier `folder : contain python script containing the various models (except BERT) used to classify tweets as related or non-related to pregnancy/newborns.
+- `Notebook `folder : contains the notebooks which implement data visualization of both  datasets (tweets and eurostat data) and the state of the art classfier model BERT and  kernel SVM. We used google colab to use GPU and train the classfier mode. We have provided publicly avalible links on the web app. 
+- `templates `folder : includes html files of the web page
+- `static` folder includes the java script,css and Images of the web page.
 
 ## Running the  Project noteooks
 
