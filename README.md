@@ -1,5 +1,5 @@
 # Studies on Human Behaviour -   Course Project
-##  Space-Time-Cube-3D and 4D visualization
+##  Space-Time-Cube(STC-3D )and 4D visualization
 
 Geovisualization of Spatio-temporal data is a very promising keynote, especially for social sciences. It is possible to use a space-time cube to divulge activity, travel patterns of different genders, racial groups, non-employees, etc., and all the information can be related to urban planning, transportation,location-based services, and many other fields dealing with individual geo-data.In this work, I used the GPS data that describe the movements of 3 subjects and Time-diaray data, data collected from the 3 subjects through the ilog-mobile application. 
 
@@ -13,11 +13,7 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 ### 2D openstreet map visualization of subject_1
 * The map provides contextual information and makes it possible to understand subject trajectory
 ![img](map_images./sub_1traj.png)
-### 2D-  Activity  vs time of the day Heat_map visualization of Subject_1
-* Given spcfic hour of the day find the frequency of activity
-![img](map_images./act.png)
-* Given spcfic activity what is the mood of the subject
-![img](map_images./mood.png)
+
 ### 3D Space-time cube visualization of subject_1
 * Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
 * There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for an interactive 3D-viz
@@ -32,6 +28,20 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 #### Intractivve 3D Space-time cube visualization with OSM as basemap
 * Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
 ![img](map_images./s1osm3d.png)
+
+### 2D-  Activity  vs time of the day Heat_map visualization of Subject_1
+* Given spcfic hour of the day find the frequency of activity
+![img](map_images./act.png)
+* Given spcfic activity what is the mood of the subject
+![img](map_images./mood.png)
+
+### 4D-visualization (STC + mood )
+* The line looks stright in the z-axis because we have only one location /co-ordinate information
+![img](map_images./4dm.png)
+### 4D-visualization (STC + With-who )
+* The line looks stright in the z-axis because we have only one location /co-ordinate information
+![img](map_images./4dw.png)
+
 ## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
 
