@@ -13,43 +13,43 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 ## Results
 ### 2D openstreet map visualization of subject_1
 * The map provides contextual information and makes it possible to understand subject trajectory
-![img](map_images./sub_1traj.png)
+![img](map_images/sub_1traj.png)
 
 ### 3D Space-time cube visualization of subject_1
 * Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
 * This concept was first introduced by [Hägerstrand-Swedish geographer](https://en.wikipedia.org/wiki/Torsten_H%C3%A4gerstrand). According to Hägerstrand; a life path can be visualized as a 3D space by projecting it on a 2D plane. As the base (x and y-axis) corresponds the geography, the height (z-axis) represents time. [2]
 * There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for non-interactive 3D-viz
 #### Non intractivve 3D Space-time cube visualization 
-![img](map_images./sub13dmt.png)
+![img](map_images/sub13dmt.png)
 #### Intractivve 3D Space-time cube visualization 
 * Run the`Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
-![img](map_images./sub_1-3d.png)
+![img](map_images/sub_1-3d.png)
 #### Intractivve 3D Space-time cube visualization with Trento-reigions as basemap
 * Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
-![img](map_images./st3d.png)
+![img](map_images/st3d.png)
 #### Intractivve 3D Space-time cube visualization with OSM as basemap
 * Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
-![img](map_images./s1osm3d.png)
+![img](map_images/s1osm3d.png)
 
 ### 2D-  Activity  vs time of the day Heat_map visualization of Subject_1
 * Given spcfic hour of the day find the frequency of activity
-![img](map_images./act.png)
+![img](map_images/act.png)
 <iframe
 src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
 style="width:100%; height:300px;"
 ></iframe> 
 
 * Given spcfic activity what is the mood of the subject
-![img](map_images./mood.png)
+![img](map_images/mood.png)
 
 ## 4D Space-time cubes
 
 ### 4D-visualization (STC + mood )
 * The line looks stright in the z-axis because we have only one location /co-ordinate information
-![img](map_images./4dm.png)
+![img](map_images/4dm.png)
 ### 4D-visualization (STC + With-who )
 * The line looks stright in the z-axis because we have only one location /co-ordinate information
-![img](map_images./4dw.png)
+![img](map_images/4dw.png)
 
 ## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
