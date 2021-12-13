@@ -49,7 +49,7 @@ pip install -r requirment.txt
 
 ## Running the  Project noteooks
 
-After installing all dependencies in your Python's environment, execute the desired script using below commands.There are different ways to run the notebook. Here simpler way have been presented.
+After installing all dependencies in your Python's environment, execute the desired script using below commands.There are different ways to run the notebook. Here simpler way have been presented. 
 
 * Step 1: Change the working directory of the project to the project folder
 * Step 2: run the following command on the cmd
