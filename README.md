@@ -81,7 +81,7 @@ pip install -r requirment.txt
 
 Replace the file paths which specfied in the [config](config.py) script.
 
-* `data_path` : Replace all with your  data set path
+* `data_path` : Replace all the data path with your  data set path
 
 ## Project Structure
 - `README.md`: file containing all the relevant information to run the project.
