@@ -8,6 +8,10 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
   - To visualize 3D Space Time Cube from a given GPS track of the 3 subjects 
   - To visualize 4D (Space Time Cube + Time-diaray data[mood,activity])
   - Mapping the person in the society, Tell the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behaviour
+ 
+## Results
+### 3D Space-time cube visualization of subject_1
+![img](imgs/predicted.png)
 ## Dataset 
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
 
