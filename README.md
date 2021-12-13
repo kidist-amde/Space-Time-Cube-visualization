@@ -31,13 +31,12 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 * Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
 ![img](map_images/s1osm3d.png)
 
+* Run the `Subject_3_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
+![img](map_images/sub3.png)
+
 ### 2D-  Activity  vs time of the day Heat_map visualization of Subject_1
 * Given spcfic hour of the day find the frequency of activity
 ![img](map_images/act.png)
-<iframe
-src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
-style="width:100%; height:300px;"
-></iframe> 
 
 * Given spcfic activity what is the mood of the subject
 ![img](map_images/mood.png)
@@ -51,8 +50,11 @@ style="width:100%; height:300px;"
 * The line looks stright in the z-axis because we have only one location /co-ordinate information
 ![img](map_images/4dw.png)
 
+### 2D-visualization frequency of activity for all_sunjects 
+![img](map_images/3sub.png)
 ## Dataset  
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
+
 
 ## Dependencies
 The ptoject uses:
@@ -83,12 +85,6 @@ and install the dependancies.
 ```bash
 pip install -r requirment.txt
 ```
-## Cofigration 
-
-Replace the file paths which specfied in the [config](config.py) script.
-
-* `data_path` : Replace all the data path with your  data set path
-
 ## Project Structure
 - `README.md`: file containing all the relevant information to run the project.
 - `requirements`: file containing all the necessary libraries to install.
@@ -103,13 +99,18 @@ Replace the file paths which specfied in the [config](config.py) script.
 
 After installing all dependencies in your Python's environment, execute the desired script using below commands.There are different ways to run the notebook. Here simpler way have been presented. 
 
-* Step 1: Change the working directory of the project to the project folder
-* Step 2: run the following command on the cmd
+* Step 1: Dowenload and extract the dataset from above provided link  
+* Step 2: Change the working directory of the project to the project folder
+* Step 3: run the following command on the cmd
 ```bash
 jupyter notebook
 ```
-* Step 3: A browser will pop up with a notebook. If the browser is not press a link on the cmd which has "htts://localhost:" in it. This will open a notebook on a browser.
-* Step 4: Now each cell can be run by pressing "SHIFT + ENTER" on your machine
+* Step 4: A browser will pop up with a notebook. If the browser is not press a link on the cmd which has "htts://localhost:" in it. This will open a notebook on a browser.
+* Step 5: First run the `GPS_data_EDA.ipynb` notebook to get processed GPS data of each subject before running any other notebook. After this step, you can run all the 3d visualization of each subject by only changing the path of the directory in which you saved the processed data of each subject.
+* Step 5: First run the `Time diary-data-EDA.ipynb` notebook to get processed time diary data of each subject before running any other notebook. After this step, you can open and run the time diary notebooks ro see the 2D and 4D visualization of each subject by only changing the path of the directory in which you saved the processed time diary data of each subject.
+
+* Step 7 : Now you can open any notebook and each cell can be run by pressing "SHIFT + ENTER" on your machine
+
 ## Refrences
 1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
 2. Kraak, M. J. (2008). Geovisualization and time–new opportunities for the space-time cube. Geographic visualization: concepts, tools, and applications, 293-306.
