@@ -10,6 +10,8 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
   - Mapping the person in the society, Tell the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behaviour
  
 ## Results
+### # 2D openstreet map visualization of subject_1
+![img](map_images/sub_1traj.png)
 ### 3D Space-time cube visualization of subject_1
 ![img](imgs/predicted.png)
 ## Dataset 
