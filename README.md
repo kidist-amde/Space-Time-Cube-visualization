@@ -10,9 +10,14 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
   - Mapping the person in the society, Tell the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behaviour
  
 ## Results
-### # 2D openstreet map visualization of subject_1
+### 2D openstreet map visualization of subject_1
 * The map provides contextual information and makes it possible to understand subject trajectory
 ![img](map_images./sub_1traj.png)
+### 2D-  Activity  vs time of the day Heat_map visualization of Subject_1
+* Given spcfic hour of the day find the frequency of activity
+![img](map_images./act.png)
+* Given spcfic activity what is the mood of the subject
+![img](map_images./mood.png)
 ### 3D Space-time cube visualization of subject_1
 * Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
 * There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for an interactive 3D-viz
