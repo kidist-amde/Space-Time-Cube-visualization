@@ -22,10 +22,10 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 #### Non intractivve 3D Space-time cube visualization 
 ![img](map_images/sub13dmt.png)
 #### Intractivve 3D Space-time cube visualization 
-* Run the`Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
+* <font color="green"> Run the 'Subject_1_2D-3D_STC_VIZ.ipynb' notebook for intractive/dynamic visualization of the 3D image </font>
 ![img](map_images/sub_1-3d.png)
 #### Intractivve 3D Space-time cube visualization with Trento-reigions as basemap
-* Run the 'Subject_1_2Dand3D_STC_VIZ.ipynb' notebook for intractive visualization 
+* Run the 'Subject_1_2-3D_STC_VIZ.ipynb' notebook for intractive/dynamic visualization of the 3D image
 ![img](map_images/st3d.png)
 #### Intractivve 3D Space-time cube visualization with OSM as basemap
 * Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
@@ -106,10 +106,12 @@ After installing all dependencies in your Python's environment, execute the desi
 jupyter notebook
 ```
 * Step 4: A browser will pop up with a notebook. If the browser is not press a link on the cmd which has "htts://localhost:" in it. This will open a notebook on a browser.
-* Step 5: First run the `GPS_data_EDA.ipynb` notebook to get processed GPS data of each subject before running any other notebook. After this step, you can run all the 3d visualization of each subject by only changing the path of the directory in which you saved the processed data of each subject.
+* Step 5: <font color="red">First run the `GPS_data_EDA.ipynb` notebook </font>to get processed GPS data of each subject before running any other notebook. After this step, you can run all the 3d visualization of each subject by only <font color="red">changing the path of the directory in which you saved the processed data of each subject.</font>
 * Step 5: First run the `Time diary-data-EDA.ipynb` notebook to get processed time diary data of each subject before running any other notebook. After this step, you can open and run the time diary notebooks ro see the 2D and 4D visualization of each subject by only changing the path of the directory in which you saved the processed time diary data of each subject.
 
 * Step 7 : Now you can open any notebook and each cell can be run by pressing "SHIFT + ENTER" on your machine
+
+*  <font color="blue"> Run each note book in your local machine to see the intractive visualization and to get  much more contextual information and makes it possible to understand space-time-cube 3D abd 4D visualization of each subject </font>
 
 ## Refrences
 1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
