@@ -20,7 +20,8 @@ Before executing the notebooks the following  dependencies must be installed in 
 !pip install topojson 
 !pip install geojson
 !pip install -U kaleido
-!pip install scikit-image```
+!pip install scikit-image
+```
 
 or you can Create your conda environment and install dependencies from the requirements.txt file accordingly
 
