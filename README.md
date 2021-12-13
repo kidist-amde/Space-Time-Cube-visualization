@@ -11,8 +11,11 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
  
 ## Results
 ### # 2D openstreet map visualization of subject_1
+* The map provides contextual information and makes it possible to understand subject trajectory
 ![img](map_images./sub_1traj.png)
 ### 3D Space-time cube visualization of subject_1
+* Space-time cube is one of the most efficient 3D geo-visualization techniques that contribute the Spatio-temporal data comprehension of human behavior[1].
+* There are different libraries that can be used for plotting data in 3D, but I used  Plotly library which provides a relatively easy and straightforward API to generate 3D interactive visualizations  and mplot3d for an interactive 3D-viz
 ![img](map_images./sub_1-3d.png)
 ## Dataset 
 Here is the [Link](https://drive.google.com/file/d/1CfC9VytolQJkGfcluuuo5vmLKWrj-XCq/view?usp=sharing) for the Two datasets.
@@ -58,3 +61,6 @@ jupyter notebook
 ```
 * Step 3: A browser will pop up with a notebook. If the browser is not press a link on the cmd which has "htts://localhost:" in it. This will open a notebook on a browser.
 * Step 4: Now each cell can be run by pressing "SHiFT + ENTER" on your machine
+## Refrences
+1. Kraak, M. J. (2003, August). The space-time cube revisited from a geovisualization perspective. In Proc. 21st International Cartographic Conference (pp. 1988-1996). Citeseer.
+2.
