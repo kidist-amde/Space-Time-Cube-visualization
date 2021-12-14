@@ -26,14 +26,16 @@ Geovisualization of Spatio-temporal data is a very promising keynote, especially
 * <font color="green"> Run the `Subject_1_2D-3D_STC_VIZ.ipynb`  notebook for intractive/dynamic visualization of the 3D image </font>
 ![img](map_images/sub_1-3d.png)
 #### Intractivve 3D Space-time cube visualization with Trento-reigions as basemap
-* Run the `Subject_1_2D-3D_STC_VIZ.ipynb`  notebook for intractive/dynamic visualization of the 3D image
-![img](map_images/st3d.png)
+* Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
+![img](map_images/sub1tr.png)
+
 * Run the `Subject_3_2D-3D_STC_VIZ.ipynb`  notebook for intractive/dynamic visualization of the 3D image
 ![img](map_images/s3tr.png)
 
 #### Intractivve 3D Space-time cube visualization with OSM as basemap
-* Run the `Subject_1_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
-![img](map_images/s1osm3d.png)
+
+* Run the `Subject_1_2D-3D_STC_VIZ.ipynb`  notebook for intractive/dynamic visualization of the 3D image
+![img](map_images/st3d.png)
 
 * Run the `Subject_3_2D-3D_STC_VIZ.ipynb` notebook for intractive visualization 
 ![img](map_images/sub3.png)
