@@ -10,6 +10,7 @@ Geovisualization of Spatio-temporal data combined with self-reported data is a v
   - To visualize 4D (Space Time Cube + Time-diaray data[mood,activity])
   - Mapping the person in the society, Telling the 3-weeks story of the subject, geography with analysis of behavior, and integrating ideas in human geography with human behavior.
 
+The project was done for the completion of STUDIES ON HUMAN BEHAVIOUR course at the University of Trento.The report paper can be found [here]
  
 ## Results
 ### 2D openstreet map visualization of subject_1
